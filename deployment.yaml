@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: phoenix-app
-        image: 095055159123.dkr.ecr.ap-south-1.amazonaws.com/phoenix-app:c2d92d004588fa49c0d098fcf72527583023070e
+        image: 095055159123.dkr.ecr.ap-south-1.amazonaws.com/phoenix-app:de8749151775fa5b9892178a45cab4a9b97d2f95
         imagePullPolicy: Always
         ports:
         - containerPort: 5000 
@@ -29,3 +29,4 @@ spec:
           requests:
             cpu: "250m"
             memory: "256Mi"
+# trigger ci
