@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: phoenix-app
-        image: 095055159123.dkr.ecr.ap-south-1.amazonaws.com/phoenix-app:a416c3fc1431f43df67278709bb2f6b3567a8e20
+        image: 095055159123.dkr.ecr.ap-south-1.amazonaws.com/phoenix-app:d0bc39e4655837b4181ce92bfef3466e0d63e8c2
         imagePullPolicy: Always
         ports:
         - containerPort: 5000 
